@@ -15,7 +15,7 @@
                     <h2 class="card-title">Escribe una pregunta</h2>
                     <div v-if="isValidQuestion">
                         <h3>{{ question }}</h3>
-                        <h3>{{ answer }}</h3>
+                        <h3>{{ answer === 'yes' ? 'Si' : 'NO!' }}</h3>
                     </div>
                     <input class="form-control" type="text" v-model="question" placeholder="Hazme una pregunta">
                 </div>  
