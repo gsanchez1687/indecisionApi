@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <IndecisionComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IndecisionComponent from './components/IndecisionComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IndecisionComponent
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+    background-color: #2d3436;
+    color: #FFF;
+    margin-top: 50px;
 }
 </style>
